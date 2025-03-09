@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"builds": [
+	  {
+		"src": "api/status.go",
+		"use": "@vercel/go"
+	  }
+	],
+	"routes": [
+	  {
+		"src": "/api/status",
+		"dest": "api/status"
+	  }
+	]
+  }
+  
